@@ -102,8 +102,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                     <p>SEGUNDA A DOMINGO DAS 10:30H ATÉ AS 21:00H.</p>
 					<?php }else{  ?>
                     <h2>horarios</h2>
-                    <p>Lunes a domingo y festivos <br>
-	                   de 10:00 a 20:00 hrs.</p>
+                    <p>lunes a domingo y festivos 
+                    de 10 a 21 hrs.</p>
 					<?php } ?> 	                  
                   </div>
                 </li>

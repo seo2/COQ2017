@@ -2381,6 +2381,13 @@ input[type="color"]:focus,
 
 
 /*  agregado por nicolas*/
+section.top .navbar-header .logo a {
+   
+    background: url(../img/logo_coq.png) no-repeat;
+    width: 175px;
+    height: 47px;
+  
+}
 .modal_overlay .box_modal .header_modal .logo{
   width: 122px;
   height: 107px;

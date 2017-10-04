@@ -75,7 +75,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                  <span class="icon-bar bottom_bar"></span>
                </button>
                   <div class="logo">
-                    <a href="<?php bloginfo('url'); ?>"> Arauco Buenaventura</a>
+                    <a href="<?php bloginfo('url'); ?>"> Arauco Coquimbo</a>
                   </div> <!-- brand -->
 
 <!--
@@ -162,7 +162,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                                       </li>
 
                                       <li>
-                                            <a href="https://www.google.com/maps/place/Arauco+Premium+Outlet+Buenaventura/@-33.331047,-70.704999,18z/data=!4m5!3m4!1s0x0:0xf59c2753c10765ea!8m2!3d-33.3311628!4d-70.7053675?hl=es-ES" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
+                                            <a href="https://www.google.com/maps/place/Arauco+Premium+Outlet+Coquimbo/@-29.9757142,-71.2976016,17z/data=!3m1!4b1!4m5!3m4!1s0x9691c9433dd04d4d:0x347855101016b030!8m2!3d-29.9757189!4d-71.2954129?hl=es-ES" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
                                       </li>
                                     </ul>
                               </div>
