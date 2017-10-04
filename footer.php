@@ -84,13 +84,13 @@ if(ICL_LANGUAGE_CODE=='en'){
                   </div>
                   <div class="bullet-content">
                     <h2><?php bloginfo('name'); ?></h2>              
-                    <p>San Ignacio 500 y 300<br>
-                    Quilicura<br>
-                    <a href="https://www.google.com/maps/place/Arauco+Premium+Outlet+Buenaventura/@-33.331047,-70.704999,18z/data=!4m5!3m4!1s0x0:0xf59c2753c10765ea!8m2!3d-33.3311628!4d-70.7053675?hl=es-ES" class="link_rojo" target="_blank"><?php echo $tit1; ?></a></p>
+                    <p>La Cantera 2325<br>
+                    Coquimbo<br>
+                    <a href="https://www.google.com/maps?ll=-29.976287,-71.295227&z=18&t=m&hl=es-ES&gl=US&mapclient=apiv3&cid=3780865414655291440" class="link_rojo" target="_blank"><?php echo $tit1; ?></a></p>
                   </div>
                 </li>  
                 <li class="bullet clearfix">
-                  <div class="bullet-icon bullet-icon-2">
+                  <div class="bullet-icon bullet-icon-2"> 
                     <i class="fa fa-clock-o" aria-hidden="true"></i>
                   </div>
                   <div class="bullet-content">
