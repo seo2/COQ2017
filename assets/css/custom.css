@@ -2131,7 +2131,7 @@ input[type="color"]:focus,
 .row {
   margin-left: -15px;
   margin-right: -15px;
-  padding: 0 15px; }
+  /*padding: 0 15px;*/ }
   .row::after {
     display: block;
     content: "";
@@ -2210,12 +2210,12 @@ input[type="color"]:focus,
 	        padding-left: 20px;
 	        padding-right: 20px;
 	        top: 50%;
-	        height: 90%; 
-		} 
+	        height: 90%;
+		}
     }
 
     @media (min-width: 1024px) {
-		.modal_overlay .box_modal { width: 780px; } 
+		.modal_overlay .box_modal { width: 780px; }
     }
 
     @media (max-width: 1023px) {
@@ -2387,6 +2387,19 @@ section.top .navbar-header .logo a { display: inline-block; background: url(../i
 .modal_overlay .box_modal .header_modal .logo{
   width: 122px;
   height: 107px;
-   
+
 
 }
+
+/*agregado por christiansen */
+.nopad{
+  padding: 0 !important;
+}
+
+
+
+
+
+
+
+
