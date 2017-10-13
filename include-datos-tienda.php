@@ -68,7 +68,7 @@ if(isset($_GET['tiendaID'])){
                             <img src="<?php echo $logo; ?>" alt="" class="img-responsive">
                         </div>
 						<p class="descripciontienda"><?php echo $desc; ?></p>
-                        <h4>SECTOR: <span class="piso"><?php echo $piso; ?></span></h4> 
+<!--                         <h4>SECTOR: <span class="piso"><?php echo $piso; ?></span></h4>  -->
                         <h4>LOCAL: <span class="local"><?php echo $local; ?></span></h4> 
                         <h3>CONTACTO: <span class="telefono"><?php echo $fono; ?><span></h3>
                         <div class="clearfix"></div>

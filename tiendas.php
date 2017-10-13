@@ -78,6 +78,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 										$tiendas = $db->rawQuery("SELECT * FROM pak_tiendas a, pak_tiendas_scat b WHERE b.sub_categoria = $buscar AND a.punto_interes = b.punto_interes ORDER BY a.nombre limit $desde,12");
 									}else{
 										$tiendas = $db->rawQuery("SELECT * FROM pak_tiendas a, pak_tiendas_scat b WHERE b.sub_categoria = $buscar AND a.punto_interes = b.punto_interes ORDER BY a.nombre limit 12");
+/* 										echo "SELECT * FROM pak_tiendas a, pak_tiendas_scat b WHERE b.sub_categoria = $buscar AND a.punto_interes = b.punto_interes ORDER BY a.nombre limit 12"; */
 									}
 								}else{
 									if($_GET['pagina']){
@@ -87,6 +88,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 										$tiendas = $db->rawQuery("select * from pak_tiendas where tipo = 1 order by nombre limit 12");
 									}
 								}
+								
 		                            
 								if($tiendas){
 									foreach ($tiendas as $t) {   
